@@ -1,11 +1,12 @@
 import { createRoot } from "react-dom/client";
-import Album from './Album'
+import AlbumList from "./components/AlbumList";
 
 const App = () => {
+  // const topAlbum = AlbumLibrary[0];
   return (
     <div>
-      <h1>Musikimia</h1>
-      <Album/>
+      <h1>Albumin</h1>
+      <AlbumList />
     </div>
   );
 };
