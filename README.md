@@ -22,7 +22,6 @@ This is my assignment for Week 18 My React Page
 
 ![](https://res.cloudinary.com/djudfrj8s/image/upload/v1686321984/week-18/Albumin_anbsej.png)
 
-**About 'Wareg': Bringing Convenient, Healthy Meals to Modern Society**  
 Welcome to Albumin. Just as albumin proteins are essential carriers in our bodies, transporting substances to where they're needed, our site 'Albumin' carries the music to your ears. We curate the best albums, delivering them to you, just as albumin delivers vital substances in our bodies. Dive into the rhythm of life with Albumin!
 
 ### Links
