@@ -1,4 +1,3 @@
-
 import AlbumCard from "./AlbumCard";
 import { AlbumLibrary } from "../data/AlbumLibrary";
 
@@ -13,9 +12,8 @@ const AlbumList = (props: AlbumListProps) => {
       album.name.toLowerCase().includes(props.searchTerm.toLowerCase()) ||
       album.album.toLowerCase().includes(props.searchTerm.toLowerCase())
   );
-
   return (
-    <div className="flex justify-center items-start flex-wrap gap-8">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-5 lg:grid-row-5 gap-4 sm:gap-6 lg:gap-6 md:gap-y-8">
       {filteredAlbums.length > 0 ? (
         filteredAlbums.map((album) => (
           <AlbumCard
