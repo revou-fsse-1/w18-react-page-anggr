@@ -23,8 +23,12 @@ const App = () => {
 
   return (
     <div>
-      <Header />
-      <LikesSummary totalLikes={totalLikes} />
+      <div className="flex justify-center items-center mb-4">
+        <div className="absolute right-0 mr-4">
+          <LikesSummary totalLikes={totalLikes} />
+        </div>
+        <Header />
+      </div>
       <SearchBar value={searchTerm} onChange={setSearchTerm} />
       <AlbumList onLike={handleLike} searchTerm={searchTerm} />
       <RegisterModal onRegister={() => setIsRegistered(true)} />
