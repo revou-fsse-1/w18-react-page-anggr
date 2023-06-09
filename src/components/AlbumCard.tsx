@@ -29,7 +29,7 @@ const AlbumCard = (props: AlbumCardProps) => {
       <div className="absolute inset-0 bg-black/25 transition-opacity group-hover:opacity-50"></div>
 
       <div className="relative flex flex-col justify-between p-2 sm:p-4 md:p-6 lg:p-8 h-full">
-        <div className="self-end">
+        <div className="absolute top-4 right-3">
           <button
             onClick={handleLike}
             className={`inline-flex items-center gap-0.5 rounded-full px-2 py-1 text-xs font-semibold ${

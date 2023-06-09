@@ -1,4 +1,3 @@
-
 import { useState, FormEvent } from "react";
 
 type RegisterModalProps = {
@@ -19,7 +18,8 @@ const RegisterModal = ({ onRegister }: RegisterModalProps) => {
   };
 
   return (
-    <div className="flex justify-center items-center
+    <div
+      className="flex justify-center items-center
     m-6">
       <button
         onClick={() => setIsOpen(true)}
@@ -54,7 +54,7 @@ const RegisterModal = ({ onRegister }: RegisterModalProps) => {
               </button>
               <div className="px-6 py-6 lg:px-8">
                 <h3 className="mb-4 text-xl font-medium text-gray-900 dark:text-white">
-                  Register up to our platform
+                  Sign up to our platform
                 </h3>
                 <form className="space-y-6" onSubmit={handleSubmit}>
                   <div>
